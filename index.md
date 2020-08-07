@@ -5,7 +5,7 @@
  	<meta charset="utf-8">
  	<meta name="viewport" content="width=divice=width,initial-scale=1">
  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
- 	<title>MY awesome Portfolio</title>
+ 	<title>Jayesh Shrivastav</title>
  	<link rel="stylesheet" href="styles.css">
    
  </head>>
