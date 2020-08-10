@@ -1,95 +1,137 @@
- <!DOCTYPE html>
- <html lang=""en>
-
- <head>
- 	<meta charset="utf-8">
- 	<meta name="viewport" content="width=divice=width,initial-scale=1">
- 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
- 	<title>Jayesh Shrivastav</title>
- 	<link rel="stylesheet" href="styles.css">
-   
- </head>>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title> Jayesh Shrivastava</title>
+</head>
 <body>
- 	<header>
- 		<div id="main">
- 			<nav>
- 				<img src="./images/logo.3.png" width="200" height="80">
- 				<ul>
- 					<li><a href="#">Home</a></li>
+<header class="text-gray-700 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+     <img src="./images/logo.3.png" width="200" height="80">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Jayesh Shrivastava</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+       					<li><a href="#Home">Home</a></li>
  					<li><a href="#Pojrct">Poject</a></li>
  					<li><a href="#Skill">Skill</a></li>
 					<li><a href="#About">About</a></li> 				
- 					 <li><a href="#">Blog</a></li>
+ 					 <li><a href="#Contacts">Contacts</a></li>
  	
- 				</ul>
- 			</nav>
- 			
- 		</div>
- 		<div class="hero flex items-center">
- 			<div class="items-center">
- 				<img src="./images/pogo.jpg" width="400" height="400 ">
- 			</div>
- 			<div class="right">
- 				<h4 style="color:Orange">    Jayesh Shrivastava</h4> 
- 				<h1>    I am a program  </h1>
- 				<p style="color:DodgerBlue">     f•	This is a Jayesh Shrivastav<br>
-•	I belong to Jaunpur (U.P).<br>
-•	I am doing diploma in Computer Science Engineering from Dr. Bhimrao Ambedkar Polytechnic College Gwalior.<br>
- </p>			
- 			</div>
- 			
- 			
- 		</div>
- 		 		 <section id="Poject"class="Poject">
- 		 		 	<h1 style="color:Orange">Poject </h1>
- 		 	<div >
- 		 		<div >
- 		 			
- 		 			<img src="./images/tic.jpg" width="200" height="200 ">
- 		 			<h3 style="color:#FFFFFF">*  Tic-Tac-Toc game *</h3>
- 		 			
- 		 		</div>
- 		 		
- 		 		
- 		 	</div>
- 		 	
- 		 </section>
- 		  <section id ="Skill"class="Skill">
- 		 	<div class="container ">
- 		 		
- 		 		<div >
- 		 			<h1 style="color:Orange">Skill </h1>
- 		 			<h2 style="color:Orange">programming language</h2>
- 		 			
+    </nav>
+    <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Search
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+  <section id="Home"class="Home">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img src="./images/pogo.jpg" width="720" height="600 ">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Hello!  I am Jayesh Shrivastava
+        <br class="hidden lg:inline-block">  I am a programmer.
+      </h1>
+      <p class="mb-8 leading-relaxed">
+      	•	This is a Jayesh Shrivastav<br>
+		•	I belong to Jaunpur (U.P).<br>
+		•	I am doing diploma in Computer Science Engineering from Dr. Bhimrao Ambedkar Polytechnic College Gwalior.<br></p>
+     
+    </div>
+  </div>
 
- 		 		</div>
- 		 		<main>
- 		 		<div class=" container  flex items-center">
- 		 			<img src="./images/python.png" width="70" height="50 "><br>
- 		 			
- 		 			<img src="./images/c.png" width="70" height="50 "><br>
- 		 			
-	 			<img src="./images/html.png" width="70" height="50"><br>
- 		 			
- 		 			<img src="./images/css.png" width="70" height="50 "><br>
- 		 			 <img src="./images/js.png" width="70" height="50 "><br>
- 		 			
- 		 			
+<section id="Poject" class="Poject">
+	<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Poject </h1>
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img src="./images/tic.jpg" width="500" height="500 ">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Tic-Tac-Toc game</h2>
+        
+      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+                  <img src="./images/snake.PNG" width="500" height="500 ">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Snake Game</h2>
+        
+      </div>
+    </div>
+  </div>
+</section>
 
- 		 		</div>
- 		 		</main>
 
- 		 	</div>
- 		 	
- 		 </section>
- 		 <section id ="About"class="About">
+
+</section>
+<section id ="Skill"class="Skill">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Skill</h1>
+      <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Programming language</h2>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img src="./images/python.png"style="height: 200px; width: 200%;">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img src="./images/c.png" style="height: 200px; width: 200%;">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+        <img src="./images/html.png" style="height: 200px; width: 200%;">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img src="./images/css.png"style="height: 200px; width: 200%;">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img src="./images/js.png" style="height: 200px; width: 200%;">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section id ="About"class="About">
  		 	<div class="container flex items-center">
  		 		<div>
  		 			<img src="./images/pogo2.jpg" width="400" height="400 ">
  		 		</div>
  		 		<div >
- 		 			<h1 style="color:Orange">About Me</h1>
- 		 			<h3>Hello! i'm Jayesh Shrivastva</h3>
+ 		 			<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Me</h1>
+ 		 			<h3 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hello! I am Jayesh Shrivastva</h3>
  		 			<p style="border:2px solid Orange;"><p style="color:DodgerBlue">
 •	I belong to Jaunpur (U.P).<br>
 
@@ -103,30 +145,97 @@
 </p>
 </p>
 
- 		 		</div>
- 		 		
- 		 	</div>
- 		 	<div>
+</div>
+</div>
+</section>
 
+<section id="Contacts"class="Contacts">
+	<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Contacts </h1>
+  <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
 
-
- 		 	</div>
- 		 	
- 		 </section>
- 		 <section >
- 		 	<footer>
- 		 		<div class="container flex items-center">
- 		 			<br><br><img src="./images/phone.png" width="100" height="80"><br>
-
-
- 		 			<<<<<<<a href="jayeshshri2@gmail.com"><img alt="gmail" src="./images/gmail.jpg" width="100" height="80"></a>	<br>
- 		 			<<<<<<<a href="https://www.polygwalior.ac.in/"><img src="./images/mono-new.gif" width="100" height="80"></a>	<br>
- 		 		</div>
- 		 		<h3 style="color:#FFFFFF">6261704431</h3><br><br>
- 		 	</footer>
- 		 </section>
- 	</header>> 
-
-
- </body>
- </html>
+    <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+      <div class="bg-white relative flex flex-wrap py-6">
+        <div class="lg:w-1/2 px-6">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
+          <p class="leading-relaxed">g-1 harsi high level colony, infront of silver estate, govindpuri Gwalior - 474006, Madhya Pradesh</p>
+        </div>
+        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">EMAIL</h2>
+          <a class="text-green-500 leading-relaxed">jayeshshri2@gmail.com</a>
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">PHONE</h2>
+          <p class="leading-relaxed">6261704431</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<footer class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+  		<img src="./images/logo.3.png" width="200" height="80">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Jayesh Shrivasta
+      </a>
+      
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">IMPORTANT LINKS</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="https://www.polygwalior.ac.in/">Dr. B.R.A. Polytechnic College Gwalior.</a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">IMPORTANT LINKS</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="https://www.jayeshshri2@gmail.com">Gmail</a>
+          </li>
+          
+        </nav>
+      </div>
+      
+    
+    </div>
+  </div>
+  <div class="bg-gray-200">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+     
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+</header>
+</body>
+</html>
